@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number (Rahul)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2>This is a number guessing game !</h2>
+    <p>Enter a guess between 0 to 100</p>
+    <form>
+        <input type="number" placeholder="Enter a number" id="input" min="0" max="100" required>
+        <div>
+            <button class="submit-btn" >Submit</button>
+            <button type="button" class="start-game-btn" disabled>Start Game</button>
+        </div>
+    </form>
+    <p class="exact-num"></p>
+    <p class="result"></p>
+    <p class="guesses"></p>
+</body>
+
+</html>
